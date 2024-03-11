@@ -1,0 +1,119 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #4e0401;
+    width: 500px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+header a, h1{
+    color: #f3f3f3;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(61, 53, 53);
+    margin: auto;
+}
+nav a{
+    color: #f3f3f3;
+}
+
+nav{
+    margin-left: auto;
+}
+
+.bornToDie {
+    color: #f3f3f3;
+    background-color: rgba(38, 136, 136, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Ultraviolence{
+    color: #f3f3f3;
+    background-color: rgba(67, 73, 73, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Honeymoon{
+    color: #f3f3f3;
+    background-color: rgba(89, 143, 143, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.lustForLife{
+    color: #f3f3f3;
+    background-color: rgba(197, 197, 197, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.NFR{
+    color: #f3f3f3;
+    background-color: rgba(55, 179, 76, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.COTCC{
+    color: #f3f3f3;
+    background-color: rgba(34, 34, 34, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.BB{
+    color: #f3f3f3;
+    background-color: rgba(104, 39, 14, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Didy{
+    color: #f3f3f3;
+    background-color: rgb(175, 158, 0);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.lasso{
+    color: #f3f3f3;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+footer{
+    color: #f3f3f3;
+    background-color: rgba(67, 73, 73, 0.726);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
