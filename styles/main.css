@@ -2,6 +2,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
+
+a:focus{
+    color: yellow;
+    text-decoration: line-through;
+}
 
 header {
     background-color: #4e0401;
@@ -37,7 +45,23 @@ nav{
     border-radius: 30px;
 }
 
-.bornToDie {
+a{
+    color: #f3f3f3;
+}
+
+ul>li{
+    color: #f3f3f3;
+}
+
+main>ol>li:first-of-type{
+    color: #000;
+}
+
+ul>li:first-child{
+    color: #000;
+}
+
+#bornToDie {
     color: #f3f3f3;
     background-color: rgba(38, 136, 136, 0.726);
     width: 300px;
@@ -46,7 +70,11 @@ nav{
     border-radius: 30px;
 }
 
-.paradise{
+#bornToDie:hover {
+    background-color: rgba(38, 136, 136);
+}
+
+#paradise{
     color: #f3f3f3;
     background-color: rgba(250, 225, 155, 0.726);
     width: 300px;
@@ -55,7 +83,11 @@ nav{
     border-radius: 30px;
 }
 
-.Ultraviolence{
+#paradise:hover{
+    background-color: rgba(250, 225, 155);
+}
+
+#Ultraviolence{
     color: #f3f3f3;
     background-color: rgba(67, 73, 73, 0.726);
     width: 300px;
@@ -64,7 +96,12 @@ nav{
     border-radius: 30px;
 }
 
-.Honeymoon{
+#Ultraviolence:hover{
+    background-color: rgba(67, 73, 73);
+
+}
+
+#Honeymoon{
     color: #f3f3f3;
     background-color: rgba(89, 143, 143, 0.726);
     width: 300px;
@@ -73,7 +110,11 @@ nav{
     border-radius: 30px;
 }
 
-.lustForLife{
+#Honeymoon:hover{
+    background-color: rgba(89, 143, 143);
+}
+
+#lustForLife{
     color: #f3f3f3;
     background-color: rgba(197, 197, 197, 0.726);
     width: 300px;
@@ -82,7 +123,11 @@ nav{
     border-radius: 30px;
 }
 
-.NFR{
+#lustForLife:hover{
+    background-color: rgba(197, 197, 197);
+}
+
+#NFR{
     color: #f3f3f3;
     background-color: rgba(55, 179, 76, 0.726);
     width: 300px;
@@ -91,7 +136,11 @@ nav{
     border-radius: 30px;
 }
 
-.COTCC{
+#NFR:hover{
+    background-color: rgba(55, 179, 76);
+}
+
+#COTCC{
     color: #f3f3f3;
     background-color: rgba(34, 34, 34, 0.726);
     width: 300px;
@@ -100,7 +149,11 @@ nav{
     border-radius: 30px;
 }
 
-.BB{
+#COTCC:hover{
+    background-color: rgba(34, 34, 34);
+}
+
+#BB{
     color: #f3f3f3;
     background-color: rgba(104, 39, 14, 0.726);
     width: 300px;
@@ -109,22 +162,34 @@ nav{
     border-radius: 30px;
 }
 
-.Didy{
+#BB:hover{
+    background-color: rgba(104, 39, 14);
+}
+
+#Didy{
     color: #f3f3f3;
-    background-color: rgb(175, 158, 0);
+    background-color: rgb(175, 158, 0, 0.726);
     width: 300px;
     margin: auto;
     padding: 10px;
     border-radius: 30px;
 }
 
-.lasso{
+#Didy:hover{
+    background-color: rgb(175, 158, 0);
+}
+
+#lasso{
     color: #f3f3f3;
     background-color: rgba(0, 0, 0, 0.726);
     width: 300px;
     margin: auto;
     padding: 10px;
     border-radius: 30px;
+}
+
+#lasso:hover{
+    background-color: rgba(0, 0, 0);
 }
 
 footer{
