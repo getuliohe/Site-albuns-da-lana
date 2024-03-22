@@ -27,15 +27,13 @@ header {
 header a, h1{
     color: #f3f3f3;
     align-items: center;
-    text-decoration: none;
     margin: auto;
     margin-top: 10px;
 }
 
-blockquote{
+p{
     color: #f3f3f3;
     padding: 10px;
-    position: relative;
     text-align: justify;
 }
 
@@ -204,16 +202,6 @@ ol, ul{
 #lasso:hover{
     background-color: rgba(0, 0, 0);
 }
-
-/* footer{
-    color: #f3f3f3;
-    background-color: rgba(67, 73, 73, 0.726);
-    width: 300px;
-    padding: 10px;
-    border-radius: 30px;
-    margin-left: 60%;
-    height: 40px;
-} */
 
 .coll1{
     float: left;
