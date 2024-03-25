@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #117688;
+    width: 100%;
+    color: whitesmoke;
+}
+
+header #titulo{
+    text-align: center;
+}
+
+.linha{
+    width: 100%;
+    background-color: #0c3c44;
+}
+
+linha::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col1{
+    width: 50%;
+    float: left;
+}
+
+.col2{
+    width: 50%;
+    float: right;
+}
+
+.col_mid{
+    width: 40%;
+    float: right;
+    margin-right: 30%;
+}
+
+#musicasDoAlbum{
+    color: whitesmoke;  
+}
+
+.linha2{
+    width: 100%;
+    background-color: #0c3c44;
+}
+
+linha2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col3{
+
+    width: 50%;
+    float: left;
+}
