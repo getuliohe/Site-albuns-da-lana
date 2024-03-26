@@ -69,3 +69,11 @@ header #titulo{
     width: 30%;
     float: right;
 }
+
+footer{
+    width: 100%;
+    background-color: rgb(127, 179, 224);
+    color: #111111;
+    text-align: center;
+    padding: 30px;
+}
