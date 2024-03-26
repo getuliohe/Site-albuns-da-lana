@@ -20,7 +20,7 @@ header #titulo{
     background-color: #0c3c44;
 }
 
-linha::after{
+.linha::after{
     content: "";
     clear: both;
     display: table;
@@ -36,29 +36,36 @@ linha::after{
     float: right;
 }
 
-.col_mid{
-    width: 40%;
-    float: right;
-    margin-right: 30%;
-}
-
 #musicasDoAlbum{
     color: whitesmoke;  
 }
-
-.linha2{
+/*Linha 2*/
+.linha2 {
     width: 100%;
-    background-color: #0c3c44;
+    background-color: #3c6971;
 }
 
-linha2::after{
+.linha2::after {
     content: "";
     clear: both;
     display: table;
 }
 
 .col3{
-
-    width: 50%;
+    width: 30%;
     float: left;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.col_mid{
+    width: 40%;
+    float: right;
+    float: left;
+    padding: 10px;
+}
+
+.col4{
+    width: 30%;
+    float: right;
 }
