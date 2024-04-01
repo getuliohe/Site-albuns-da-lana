@@ -3,15 +3,110 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+/* IPHONE SE*/
+@media only screen and (min-width:375px){
+    .col1{
+        width: 100%;
+    }
+    
+    .col2{
+        width: 100%;
+    }
 
+    .col3{
+        width: 100%;
+        color:whitesmoke;
+        text-align: center;
+    }
+    
+    .col_mid{
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .col4{
+        width: 100%;
+    }
+}
+
+/* IPAD AIR */
+@media only screen and (min-width:820px){
+    .col1{
+        width: 50%;
+        float: left;
+    }
+    
+    .col2{
+        width: 50%;
+        float: right;
+    }
+
+    .col3{
+        width: 50%;
+        float: left;
+        color:whitesmoke;
+        text-align: center;
+    }
+    
+    .col_mid{
+        width: 50%;
+        float: right;
+        padding: 10px;
+    }
+    
+    .col4{
+        width: 100%;
+    }
+}
+
+/* L LAPTOP */
+@media only screen and (min-width:1440px){
+    .col1{
+        width: 50%;
+        float: left;
+    }
+    
+    .col2{
+        width: 50%;
+        float: right;
+    }
+
+    .col3{
+        width: 33.33%;
+        float: left;
+        color:whitesmoke;
+        text-align: center;
+    }
+    
+    .col_mid{
+        width: 33.33%;
+        float: right;
+        float: left;
+        padding: 10px;
+    }
+    
+    .col4{
+        width: 33.33%;
+        float: right;
+    }
+}
 
 header{
     background-color: #117688;
     width: 100%;
-    color: whitesmoke;
+    animation: 12s linear 0s infinite psychedelic;
 }
 
-header #titulo{
+@keyframes psychedelic{
+    from {
+        filter: hue-rotate(0deg);
+      }
+      to {
+        filter: hue-rotate(360deg);
+      }
+}
+
+#titulo{
     text-align: center;
 }
 
@@ -26,18 +121,9 @@ header #titulo{
     display: table;
 }
 
-.col1{
-    width: 50%;
-    float: left;
-}
-
-.col2{
-    width: 50%;
-    float: right;
-}
-
 #musicasDoAlbum{
     color: whitesmoke;  
+    
 }
 
 /*Linha 2*/
@@ -52,24 +138,14 @@ header #titulo{
     display: table;
 }
 
-.col3{
-    width: 30%;
-    float: left;
-    color:whitesmoke;
+footer{
+    width: 100%;
+    background-color: rgb(127, 179, 224);
+    color: #111111;
     text-align: center;
+    padding: 30px;
 }
 
-.col_mid{
-    width: 40%;
-    float: right;
-    float: left;
-    padding: 10px;
-}
-
-.col4{
-    width: 30%;
-    float: right;
-}
 
 footer{
     width: 100%;
